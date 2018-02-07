@@ -19,7 +19,7 @@ var proxy = httpProxy.createProxyServer({
       return undefined;
     }
   }),
-  changeOrigin: false
+  changeOrigin: true
 });
 
 function stripSub (link) {
