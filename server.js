@@ -8,7 +8,7 @@ var api = require('./api.js');
 var blocked = require('./static/blocked.json');
 var reBlocked = require('./static/re_blocked.json');
 
-var port = process.env.PORT || 80;
+var port = 80 //process.env.PORT || 80;
 var subdomainsAsPath = true;
 var serveHomepage = true;
 var serveHomepageOnAllSubdomains = true;
